@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="javascript" src="script.js"></script>
     <title>Aniket Pharma</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="header">
+            <h2>Register Form</h2>
+        </div>
+        <form id="form" onsubmit="submitForm(event)" class="form">
+            <div class="form-control">
+                <input type="text" placeholder="Enter name" id="name" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <input type="email" placeholder="Enter email" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <input type="text" placeholder="Enter city" id="city"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <input type="password" placeholder="Enter age" id="age"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button><a href="home.html" ></a>Submit</button>
+        </form>
+    </div>
+     
+ <!-- <div class="CaptureContainer">
+<div class="capture">
+  <h2></h2>
+</div>
+<div class="name">
+    <span>Full Name</span><br>
+    <input type="text"  placeholder="Enter Your name" name="name" id="name" required><br>
+</div>
+<div class="email">
+    <span>Email Address</span><br>
+    <input type="email"  placeholder="Enter Your Email" name="email" id="email" required><br>
+</div>
+<div class="age">
+    <span>Age</span><br>
+    <input type="text"  placeholder="Enter Your Age" name="age" id="age" required>
+</div>
+ </div>    -->
 </body>
 </html>
